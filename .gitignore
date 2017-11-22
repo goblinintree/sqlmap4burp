@@ -2,3 +2,4 @@
 /.idea
 *.class
 src/META-INF/*
+/bin/
