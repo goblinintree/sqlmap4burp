@@ -18,9 +18,8 @@ package burp.api;
 public interface IHttpRequestResponsePersisted extends IHttpRequestResponse
 {
     /**
-     * This method is used to permanently delete the saved temporary files. It
-     * will no longer be possible to retrieve the request or response for this
-     * item.
+     * This method is deprecated and no longer performs any action.
      */
+    @Deprecated
     void deleteTempFiles();
 }
